@@ -1,0 +1,17 @@
+<div [formGroup]="form">
+
+    <div>
+        <input name="keyword" min="0" type="text" formControlName="num" >
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="content">
+            <br />
+            <div>
+                <div class="val-list"   *ngFor="let item of list">
+                    <div style="width: 15%;text-align: left;">{{item}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

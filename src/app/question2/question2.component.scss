@@ -1,0 +1,29 @@
+.navbar-text{
+    padding: 10px;
+}
+.content{
+    padding: 10px;
+ }
+.button{
+    border: 1px #DCD8D8;
+}
+.list{
+    padding: 10px !important;
+    border-top: 1px solid !important;
+    border-bottom: 1px solid !important;
+}
+.val-list{
+    padding: 10px !important;
+    border: 2px solid #eee !important;
+    // border-right: 2px solid #eee !important;
+    // border-left: 2px solid #eee !important;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+     bottom: 0;
+    display: flex;
+    color: #fa9916;
+    font-weight: bold;
+  }
