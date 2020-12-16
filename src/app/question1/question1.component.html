@@ -1,0 +1,19 @@
+<div class="body" style="display: flex;  height: 100%;" [formGroup]="form">
+    <div style="width: 200px;" class="full-height">
+
+        <input name="number" min="0" type="number" formControlName="num" >
+        
+    </div>
+    <div style="width: 100%;" class="full-height">
+        <select formControlName="operate" (change)="calculate()" style="width: 25%;">
+            <option></option>
+            <option value="isPrime">isPrime</option> 
+            <option value="isFibonacci">isFibonacci</option> 
+          </select>    
+        
+        </div>
+    <div style="width: 300px;" class="full-height">
+       {{result}}
+    </div>
+</div>
+
